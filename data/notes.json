@@ -1,0 +1,59 @@
+{
+    "notes": [ 
+        {
+            "id": 1,
+            "title": "Logistic Regression",
+            "content": "Logistic Regression is a supervised machine learning algorithm used for classification problems. It is used for binary classification where the output can be one of two possible categories such as Yes/No, True/False or 0/1. It predicts the probability that something belongs to a specific class. For example, it can predict whether a customer will leave a company or stay."
+        },
+        {
+            "id": 2,
+            "title": "Decision Tree",
+            "content": "A Decision Tree is a machine learning algorithm used for classification and regression. It makes predictions by splitting data into smaller groups based on different conditions. Each internal node represents a question, and each branch represents a possible answer. Decision Trees are easy to understand, but they can overfit the training data."
+        },
+        {
+            "id": 3,
+            "title": "Overfitting",
+            "content": "Overfitting happens when a machine learning model learns the training data too well. The model may also learn noise and unnecessary details instead of general patterns. As a result, it performs well on training data but poorly on new data. We can reduce overfitting by using regularization, cross-validation, or simpler models."
+        },
+        {
+            "id": 4,
+            "title": "Precision",
+            "content": "Precision is a metric used to evaluate classification models. It measures how many predicted positive results are actually correct. High precision means that the model makes few false positive predictions. For example, in spam detection, high precision means that most emails marked as spam are really spam."
+        },
+        {
+            "id": 5,
+            "title": "Recall",
+            "content": "Recall is a metric used to evaluate classification models. It measures how many actual positive cases the model correctly identifies. High recall means that the model misses few positive cases. For example, in disease detection, high recall means that the model identifies most people who have the disease."
+        },
+        {
+            "id": 6,
+            "title": "Train/test split",
+            "content": "Train/test split is a technique used to divide a dataset into two parts. The training set is used to teach the machine learning model. The test set is used to evaluate how well the model performs on new, unseen data. A common approach is to use 80% of the data for training and 20% for testing."
+        },
+        {
+            "id": 7,
+            "title": "Cross-validation",
+            "content": "Cross-validation is a technique used to evaluate machine learning models. It divides the training data into several smaller groups called folds. The model is trained multiple times, using different folds for training and validation. This helps us estimate how well the model will perform on new data."
+        },
+        {
+            "id": 8,
+            "title": "Aritficial neuronal network",
+            "content": "An Artificial Neural Network is a machine learning model inspired by the human brain. It consists of connected artificial neurons organized into layers. Each neuron processes information using weights, a bias, and an activation function. Neural networks can learn complex patterns and are used in image recognition, language processing, and prediction."
+        },
+        {
+            "id": 9,
+            "title": "API (Application Programming Interface)",
+            "content": "An API is a way for different applications to communicate with each other. It allows one application to request data or services from another application.For example, a frontend application can use an API to send requests to a backend server. APIs are commonly used in web applications, mobile apps, and AI systems."
+        },
+        {
+            "id": 10,
+            "title": "Docker",
+            "content": "Docker is a platform used to package and run applications in containers. A container includes the application and the dependencies it needs to work. Docker helps developers run applications consistently across different environments. For example, we can use Docker to run a Python application without manually installing all its dependencies on the host computer."
+        },
+        {
+            "id": 11,
+            "title": "Python lists",
+            "content": "A list is a built-in data structure in Python used to store multiple values. Lists are ordered, mutable, and can contain different data types. We can add, remove, or modify elements using methods like append(), remove(), and pop(). For example, numbers = [1, 2, 3] creates a list containing three integers."
+        }
+    ]
+}
